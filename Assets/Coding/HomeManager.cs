@@ -11,6 +11,11 @@ public class HomeManager : MonoBehaviour
     public int tutor, videoStory, videoOpening;
     public Button storyButton;
     // Start is called before the first frame update
+
+    private void Awake()
+    {
+        Application.targetFrameRate = 60;
+    }
     void Start()
     {
         videoOpening = PlayerPrefs.GetInt("videoOpening");

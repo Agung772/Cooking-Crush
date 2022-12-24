@@ -25,6 +25,11 @@ public class MainMenuController : MonoBehaviour
     public float timerVideo;
     public bool videoOpeningBool, matiinTimerOpening;
     // Start is called before the first frame update
+
+    private void Awake()
+    {
+        Application.targetFrameRate = 60;
+    }
     void Start()
     {
         videoStory = PlayerPrefs.GetInt("videoStory");

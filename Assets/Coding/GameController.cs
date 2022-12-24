@@ -53,7 +53,8 @@ public class GameController : MonoBehaviour
     // Start is called before the first frame update
     private void Awake()
     {
-        
+        Application.targetFrameRate = 60;
+
         totalUang = PlayerPrefs.GetInt("Uang");
         videoLevel1 = PlayerPrefs.GetInt("VideoLevel1");
         videoLevel2 = PlayerPrefs.GetInt("VideoLevel2");
