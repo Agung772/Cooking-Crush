@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: fc309f7ea106ed34f964ea9adc8a17f8
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Retrolight
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: cba14094403c52d4aaad62034291b3b4, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
