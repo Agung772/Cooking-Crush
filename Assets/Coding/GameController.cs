@@ -107,6 +107,7 @@ public class GameController : MonoBehaviour
 
         uangText.text = ": " + totalUang;
 
+
         
     }
 

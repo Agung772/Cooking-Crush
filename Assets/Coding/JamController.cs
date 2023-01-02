@@ -51,6 +51,8 @@ public class JamController : MonoBehaviour
         {
             transform.Rotate(Vector3.forward * kecepatanJam * Time.deltaTime);
         }
+
+        if (Input.GetKeyDown(KeyCode.Alpha0)) kecepatanJam = 0;
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

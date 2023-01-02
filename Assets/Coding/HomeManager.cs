@@ -53,6 +53,8 @@ public class HomeManager : MonoBehaviour
             tutor2UI.SetActive(false);
             next.SetActive(false);
         }
+
+        if (Input.GetKeyDown(KeyCode.Delete)) PlayerPrefs.DeleteAll();
     }
 
     public void StartGame()
